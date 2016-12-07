@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Praxis</title>
+        <link type="text/css" href="style.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Dosis:500,600' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" type="image/png" href="images/aBlue/logoTop.png">
+    </head>
+    
+<script>
+    var form, thanks;
+    window.onload = function () {
+        form = document.getElementById("formFooter");
+        thanks = document.getElementById("thank");
+        
+        form.style.opacity = "1";
+        form.style.zIndex = "1";
+        thanks.style.opacity = "0";
+        thanks.style.zIndex = "0";
+        
+        form.style.transition = "opacity 0.5s ease-in-out 0s";
+        thanks.style.transition = "opacity 0.5s ease-in-out 0s";
+    }
+    
+    function submission() {
+        form.style.opacity = "0";
+        thanks.style.opacity = "1";
+        form.style.zIndex = "1";
+        thanks.style.zIndex = "0";
+        
+        $('formButton').click(function( event ) {
+            event.preventDefault();
+        });
+    }
+    
+</script>
+       
+<section id="head">
+    <div id="headBG"></div>
+    <div id="headText" class="noSelect">
+        <a href="http://facebook.com" id="fbLinkLeft" class="social"></a>
+        <a href="http://twitter.com" id="twitterLinkLeft" class="social"></a>
+        <a href="http://facebook.com" id="fbLink" class="social"></a>
+        <a href="http://twitter.com" id="twitterLink" class="social"></a>
+        <span id="mold">2015</span>
+        <div id="breakTop"></div>
+        <br>
+        <span id="shouldYou">SHOULD YOU GO TO COLLEGE?</span>
+        <div id="breakBottom"></div>
+        <br>
+        <span id="costs">The financial, social, and personal costs of modern higher education.</span>
+    </div>
+</section>
+    
+<div id="body">
+    
+    <section id="bubble">
+        <p id="hyper-inflated">THE HYPER-INFLATED<br><span id="bubbleTitle">EDUCATION BUBBLE</span></p>
+        <p id="trillion">College debt has now passed 1 trillion dollars, topping consumer credit debit.</p>
+        <img id="bubbleLowPoly" src="images/aBlue/bubble.png" width="343px" height="338px">
+        <div id="quad1">
+            <img src="images/aBlue/dotsQuad1-2x.png" width="100%" height="auto">
+            <img id="diploma" src="images/aBlue/bubbleDiploma.png">
+            <p id="stat536" class="bubbleStat">53.6%</p>
+            <p id="diplomaInfo" class="bubbleInfo">of college grads are either unemployed or underemployed.</p>
+        </div>
+        <div id="quad2">
+            <img src="images/aBlue/dotsQuad2-2x.png" width="100%" height="auto">
+            <img id="debt" src="images/aBlue/bubbleDebt.png">
+            <p id="stat35051" class="bubbleStat">$35,051</p>
+            <p id="debtInfo" class="bubbleInfo">is the average amount of student debt for the class of 2015.</p>
+        </div>
+        <div id="quad3">
+            <img src="images/aBlue/dotsQuad3-2x.png" width="100%" height="auto">
+            <img id="graduate" src="images/aBlue/bubbleGraduate.png">
+            <p id="stat15000" class="bubbleStat">$15,000</p>
+            <p id="graduateInfo" class="bubbleInfo">is what 45% of college grads earn 2 years after graduation.</p>
+        </div>
+        <div id="quad4">
+            <img src="images/aBlue/dotsQuad4-2x.png" width="100%" height="auto">
+            <img id="house" src="images/aBlue/bubbleHouse.png">
+            <p id="stat45" class="bubbleStat">45%</p>
+            <p id="houseInfo" class="bubbleInfo">of graduates have to move back home after graduating.</p>
+        </div>
+        
+        <div id="loansInfo">
+            <p id="easyLoans">Student loans are being given out like free candy.</p>
+            <img id="loanDivider" src="images/aBlue/candyShort.png" width="6px">
+            <p id="loanPercentage"><span id="seventy">70%</span> of students take loans</p>
+            <!--<img id="candyLongLeft" src="images/aBlue/candyLong.png" width="6px">
+            <img id="candyLongRight" src="images/aBlue/candyLong.png" width="6px">-->
+            <img id="loanDividerBottom" src="images/aBlue/candyShort.png" width="6px">
+            <p id="defaultOnLoans" class="terminalDarkMedium">Students cannot default on these loans or declare bankruptcy.</p>
+        </div>
+        <div id="inflationInfo">
+            <div id="inflationChart">
+                <p id="inflationTitle">College tuition continues to outpace inflation</p>
+                <img src="images/aBlue/inflationAxes.png" width="100%" height="auto">
+                <ul id="inflationY" class="openSans">
+                    <li class="yAxis">1,200</li>
+                    <li class="yAxis">1,000</li>
+                    <li class="yAxis">800</li>
+                    <li class="yAxis">600</li>
+                    <li class="yAxis">400</li>
+                    <li class="yAxis">200</li>
+                </ul>
+                <ul id="inflationX" class="openSans">
+                    <li class="xAxis">1980</li>
+                    <li class="xAxis">1985</li>
+                    <li class="xAxis">1990</li>
+                    <li class="xAxis">1995</li>
+                    <li class="xAxis">2000</li>
+                    <li class="xAxis">2005</li>
+                    <li class="xAxis">2010</li>
+                </ul>
+                <div class="chartDots">
+                    <img src="images/aBlue/cpiCurve.png" width="100%">
+                    <p id="cpiLegend" class="legendInfo">Consumer Price<br>Index</p>
+                </div>
+                <div class="chartDots">
+                    <img src="images/aBlue/tuitionCurve.png" width="100%">
+                    <p id="tuitionLegend" class="legendInfo">Tuition</p>
+                </div>
+                <img id="brace" src="images/aBlue/brace.png" height="67%">
+                <p id="risenCost" class="terminalLightMedium">SINCE 1982, THE COST OF COLLEGE HAS RISEN<br><span id="stat439" class="terminalDark">439%</span></p>
+            </div>
+            <div id="dotMoney">
+                <p id="whereDoesItGo" class="terminalLightMedium">Where’s all this money going?</p>
+                <img id="topLeftDotsMoney" src="images/aBlue/moneyTopLeftDots.png">
+                <p id="admins" class="moneyInfo"><span class="moneyTitle">ADMINS</span><br>Colleges are hiring more admins<br>compared to teachers/actual faculty</p>
+                <img id="middleMoney" src="images/aBlue/moneyMiddleDots.png">
+                <p id="amenities" class="moneyInfo"><span class="moneyTitle">AMENITIES</span><br>Spending on student services has increased<br>faster than spending on instruction</p>
+                <img id="moneyRightDots" src="images/aBlue/moneyRight.png">
+                <p id="increaseValue" class="terminalLight">How does this increase the value of the degree?</p>
+                <img id="moneyBottomDots" src="images/aBlue/moneyBottom.png">
+                <p id="bubbleBurst"><span id="payingMore">Students are paying more for a product that isn't getting better.</span><br>The bubble's going to burst.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="paradox">
+        <p id="workPrep" class="terminalLight">THE WORK-PREPARATION<br><span id="workPrepTitle">PARADOX</span></p>
+        <div id="paradoxImages">
+            <div id="paradoxCAO" class="paradoxHead">
+                <img class="paradoxBox" src="images/aBlue/paradoxCollege.png" width="100%">
+                <p id="stat96" class="paradoxStat">96%</p>
+                <p class="paradoxInfo">of <strong>Chief Academic Officers</strong> rate their institution as very/somewhat effective at <strong>preparing students</strong> for the world of work.</p>
+            </div>
+            <img id="paradoxBrace" src="images/aBlue/braceOpen.png" width="4%">
+            <div id="paradoxGrads" class="paradoxHead">
+                <img class="paradoxBox" src="images/aBlue/paradoxDiploma.png" width="100%">
+                <p id="stat14" class="paradoxStat">14%</p>
+                <p class="paradoxInfo">of <strong>Americans</strong> strongly agree that <strong>college graduates</strong> in the country are well-prepared for <strong>success in the workplace.</strong></p>
+            </div>
+            <div id="paradoxBusiness" class="paradoxHead">
+                <img class="paradoxBox" src="images/aBlue/paradoxBriefcase.png" width="100%">
+                <p id="stat11" class="paradoxStat">11%</p>
+                <p class="paradoxInfo">of <strong>business leaders</strong> strongly agree <strong>graduating students</strong> have the skills and competencies that their businesses need.</p>
+            </div>
+        </div>
+        <p id="whyHappens" class="terminalLight">Why is this happening?<br><span id="maybeBecause">Maybe it's because...</span></p>
+        <p id="ampersand" class="terminalDark noSelect">&amp;</p>
+        <div id="collegeSignal">
+            <img class="whyPicture" src="images/aBlue/signalTower.png" width="40%">
+            <p class="whySubtitle terminalLight">The degree doesn't<br>signal much anymore.</p>
+            <img id="whyDotsLeft" class="whyDots" src="images/aBlue/candyShort.png">
+            <p id="degree12">1.2M degrees<br>(2000)</p>
+            <p id="degree16">1.6M degrees<br>(2009)</p>
+            <img id="moreDegrees" src="images/aBlue/whyHappenDegree.png" width="50%">
+            <p id="whyHappensOverflow" class="terminalLightMedium">The job market is overflowing with graduates.</p>
+        </div>
+        <div id="gradTime">
+            <img class="whyPicture" src="images/aBlue/clock.png" width="40%">
+            <p class="whySubtitle terminalLight">The average graduation<br>time is 5.4 years.</p>
+            <img id="whyDotsRight" class="whyDots" src="images/aBlue/candyShort.png">
+            <img id="gradCaps" src="images/aBlue/graduationCaps.png" width="70%">
+            <div id="capInfo">    
+                <img id="whyBrace" src="images/aBlue/whyHappensBrace.png" height="100%">
+                <p id="stat30">Less than 30% of public university<br>students graduate in 4 years.</p>
+            </div>
+            <p id="whyHappensExperience" class="terminalLightMedium">That's 5.4 years that could have been spent<br>gaining experience.</p>
+        </div>
+        <p id="bartenders" class="terminalDark">There are over 80,000 bartenders with 4 year degrees</p>
+    </section>
+    
+    <section id="environment">
+        <p id="collegeEnvironment" class="terminalLight">THE COLLEGE<br><span class="environmentHaad">ENVIRONMENT</span></p>
+        <div id="environmentCore">
+            <img id="environmentLearning" src="images/aBlue/environmentLearning.png" width="50%">
+            <p class="environmentStat">45%</p>
+            <p class="environmentInfo">of graduating students show<br>no real, discernible increase<br>in learning.</p>
+            <img id="coreDots" src="images/aBlue/environmentMiddleDots.png" width="2.8%">
+        </div>
+        <div id="environmentDepression">
+            <img id="environmentDepressionPic" src="images/aBlue/environmentDepression.png" width="49%">
+            <p id="envrionmentStat30" class="environmentStat">30%</p>
+            <p id="environmnetInfoDepression" class="environmentInfo">of college students reported feeling<br>“so depressed that it was difficult to<br>function” some time in the past year.</p>
+            <img id="environmentTopLeftDots" src="images/aBlue/environmentTopLeftDots.png" width="100%">
+        </div>
+        <div id="environmentCheating">
+            <img id="environmentCheatingPic" src="images/aBlue/environmentCheating.png" width="45%">
+            <p id="environmentStat82" class="environmentStat">82%</p>
+            <p id="environmentInfoCheating" class="environmentInfo">of a sample of college alumni<br>admitted to engaging in some<br>form of cheating as undergrads.</p>
+            <img id="environmentTopRightDots" src="images/aBlue/environmentTopRightDots.png" width="100%">
+        </div>
+        <div id="environmentDrinking">
+            <img id="environmentLeft" src="images/aBlue/drinkingDots.png" width="100%">
+            <p id="environmentStat80" class="environmentStat">80%</p>
+            <p id="environmentInfoDrinking" class="environmentInfo">of college students admit to using alcohol, and of those, 50% engaged in binge drinking in the last two weeks.</p>
+        </div>
+        <div id="environmentSpeech">
+            <img id="environmentRight" src="images/aBlue/speechDots.png" width="100%">
+            <p id="environmentStat576" class="environmentStat">57.6%</p>
+            <p id="environmentInfoSpeech" class="environmentInfo">of public schools FIRE reviewed had speech codes that clearly restrict protected speech.</p>
+        </div>
+        <p id="environmentLearningText" class="terminalDark">An unhealthy and unproductive "learning" environment.</p>
+        <img id="environmentFinalDots" src="images/aBlue/environmentBottomDots.png" width="0.56%">
+    </section>
+    
+    <section id="comparison">
+        <p id="sideBySide" class="terminalLight">A SIDE-BY-SIDE<br><span id="compare">COMPARISON</span></p>
+        <p id="sideSubTitle">How do the priorities of a young unschooler differ from those of a young student?</p>
+        <div id="collegeMindset">
+            <p id="collegeMind" class="terminalDark">The College Mindset</p>
+            <div id="college3">
+                <p id="c3Info" class="collegeInfo">To have a credential from a prestigious<br>institutions certifying competence.</p>
+                <img class="collegeDots" src="images/aBlue/college3Set.png" width="100%">
+            </div>
+            <div id="college2">
+                <p id="c2Info" class="collegeInfo">To prepare for the workplace and living in the world by taking classes and seminars.</p>
+                <img class="collegeDots" src="images/aBlue/college2Set.png" width="100%">
+            </div>
+            <div id="college1">
+                <p id="c1Info" class="collegeInfo">To follow the wishes and expectations of society at large.</p>
+                <img class="collegeDots" src="images/aBlue/college1Set.png" width="100%">
+            </div>
+        </div>
+        <div id="unschoolMindset">
+            <p id="unschoolMind" class="terminalLight">The Unschooled Mindest</p>
+            <div id="unschool3">
+                <img src="images/aBlue/school3Set.png" width="100%">
+                <p id="s3Info" class="unschoolInfo">To have a portfolio of personal and professional skills and experiences that speak for themselves.</p>
+            </div>
+            <div id="unschool2">
+                <img src="images/aBlue/school2Set.png" width="100%">
+                <p id="s2Info" class="unschoolInfo">To prepare for the workplace and living in the world BY working, living, and learning in the world.</p>
+            </div>
+            <div id="unschool1">
+                <img src="images/aBlue/school1Set.png" width="100%">
+                <p id="s1Info" class="unschoolInfo">To build one's life, regardless of whether or not it goes against the mold.</p>
+            </div>
+        </div>
+        <div id="quoteFader"></div>
+        <p id="privileges" class="terminalLightMedium">For the privilege of being turned into conformists, students (or their families) pay hundreds of thousands of dollars in skyrocketing tuition that continues to outpace inflation.<br><span id="quoteBottom">Why are we doing this to ourselves?</span></p>
+        <div id="paypal">
+            <div id="quoteMark" class="noSelect"></div>
+            <img id="thielImage" class="noSelect" src="images/aBlue/thielPic.png" width="40px">
+            <p id="thielInfo">Peter Thiel, <span id="italic">Founder of PayPal</span></p>
+        </div>
+        <div id="footer">
+            <p id="anotherWay">There's another way.</p>
+            <p id="alternatives">Alternatives to College.</p>
+            <div id="emailForm">
+                <!-- "return false" prevents the form from submitting. Deleting it will allow the page to reload and the form be submitted.-->
+                <form id="formFooter" onsubmit="return false">
+                    <input type="text" name="email" placeholder="Enter your email" id="formBox">
+                    <input type="submit" value="Learn More" id="formButton" onclick="submission();">
+                </form>
+                <p id="thank">Thank you!</p>
+            </div>
+            <img id="logos" src="images/aBlue/logos.png">
+            <a id="portal" class="noSelect" target="_blank" href="http://discoverpraxis.com">Media Portal</a>
+            <a href="http://facebook.com" id="fbLinkLeftB" class="social"></a>
+            <a href="http://twitter.com" id="twitterLinkLeftB" class="social"></a>
+            <a href="http://facebook.com" id="fbLinkRighttB" class="social"></a>
+            <a href="http://twitter.com" id="twitterLinkRightB" class="social"></a>
+        </div>
+    </section>
+    
+</div>
+       
+</html>

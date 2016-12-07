@@ -1,0 +1,1609 @@
+#head {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#leftHead {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background: url(images/left.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#rightHead {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: url(images/left.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#praxis {
+    font-family: TerminalDosis-SemiBold;
+    font-size: 1.016em;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 24px;
+    
+}
+
+#headText {
+    width: 652px;
+    height: 182px;
+    margin-left: -326px;
+    margin-top: -91px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+
+#mold {
+    font-family: OpenSans-Italic, sans-serif;
+    font-weight: 100;
+    font-size: 0.875em;
+    color: white;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#shouldYou {
+    font-family: TerminalDosis-SemiBold;
+    font-size: 3em;
+    color: white;
+    letter-spacing: 0.5pt;
+    line-height: 150px;
+}
+
+#costs {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.25em;
+    color: white;
+}
+
+#logo {
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+
+
+#breakTop {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    top: 30px;
+    z-index: 1;
+}
+
+#breakBottom {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    bottom: 26px;
+    z-index: 1;
+}
+
+.social {
+    width: 20px;
+    height: 20px;
+    -webkit-transition: opacity 0.25s ease;
+    -moz-transition: opacity 0.25s ease;
+    -o-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+}
+
+.social:hover {
+    opacity: 0.6;
+}
+
+#fbLink {
+    background-image: url(images/facebookLogo.png);
+    position: absolute;
+    top: 0;
+    right: 26px;
+}
+
+#twitterLink {
+    background-image: url(images/twitterLogo.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+#headBG {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url(images/aBlue/bg.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#fbLinkLeft {
+    background-image: url(images/facebookLogo.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#twitterLinkLeft {
+    background-image: url(images/twitterLogo.png);
+    position: absolute;
+    top: 0;
+    left: 26px;
+}
+
+#bubble {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+
+#body {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+}
+
+#hyper-inflated {
+    width: 100%;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 55px;
+    color: rgb(0, 181, 188);
+}
+
+#bubbleTitle {
+    font-size: 2em;
+}
+
+#trillion {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.25em;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 181, 188);
+}
+
+#bubbleLowPoly {
+    position: absolute;
+    left: 50%;
+    margin-left: -171px;
+    top: 248px;
+}
+
+#dots1 {
+    position: absolute;
+    left: 50%;
+    margin-left: -345px;
+    top: 294px;
+    opacity: 0;
+}
+
+#quad1 {
+    position: absolute;
+    left: 50%;
+    margin-left: 110px;
+    top: 300px;
+    width: 11%;
+    padding-right: 92px;
+    max-width: 182px;
+    min-width: 117px;
+}
+
+
+
+#diploma {
+    position: absolute;
+    right: 0;
+    top: -24px;
+}
+
+
+
+#stat536 {
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+#diplomaInfo {
+    position: absolute;
+    right: -60px;
+    top: 90px;
+    width: 200px;
+}
+
+.bubbleInfo {
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.75em;
+    color: rgb(77, 80, 80);
+}
+
+#quad2 {
+    position: absolute;
+    right: 50%;
+    margin-right: 130px;
+    top: 324px;
+    width: 17.52%;
+    padding-left: 28px;
+    padding-bottom: 90px;
+    max-width: 289px;
+    min-width: 186px;
+}
+
+#debt {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.bubbleStat {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.875em;
+    color: rgb(0, 181, 188);
+}
+
+#stat35051 {
+    position: absolute;
+    left: -10px;
+    bottom: -72px;
+}
+
+#debtInfo {
+    position: absolute;
+    bottom: -90px;
+    left: -60px;
+    width: 200px;
+}
+
+#quad3 {
+    position: absolute;
+    right: 50%;
+    margin-right: 56px;
+    top: 560px;
+    width: 9.37%;
+    padding-left: 57px;
+    padding-bottom: 57px;
+    max-width: 155px;
+    min-width: 99px;
+}
+
+#graduate {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#stat15000 {
+    position: absolute;
+    left: -20px;
+    bottom: -70px;
+}
+
+#graduateInfo {
+    position: absolute;
+    left: -80px;
+    bottom: -90px;
+    width: 200px;
+}
+
+#quad4 {
+    position: absolute;
+    left: 50%;
+    margin-left: 140px;
+    top: 504px;
+    width: 16.7%;
+    padding-right: 40px;
+    padding-bottom: 88px;
+    max-width: 276px;
+    min-width: 177px;
+}
+
+#house {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#stat45 {
+    position: absolute;
+    right: 16px;
+    bottom: -71px
+}
+
+#houseInfo {
+    position: absolute;
+    right: -60px;
+    bottom: -90px;
+    width: 200px;
+}
+
+#easyLoans {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    color: rgb(21, 114, 165);
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+}
+
+#loansInfo {
+    position: absolute;
+    top: 850px;
+    width: 100%;
+    height: auto;
+}
+
+#loanDivider {
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 60px;
+}
+
+#loanPercentage {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    color: rgb(0, 181, 188);
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 92px;
+}
+
+#seventy {
+    color: rgb(21, 114, 165);
+}
+
+#candyLongLeft {
+    position: absolute;
+    right: 50%;
+    margin-right: 230px;
+    top: 56px;
+}
+
+#candyLongRight {
+    position: absolute;
+    left: 50%;
+    margin-left: 230px;
+    top: 56px;
+}
+
+#loanDividerBottom {
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 150px;
+}
+
+.terminalDark {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    color: rgb(21, 114, 165);
+}
+
+#defaultOnLoans {
+    widows: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    position: relative;
+    top: 180px;
+}
+
+#inflationChart {
+    position: absolute;
+    width: 33%;
+    right: 50%;
+    max-width: 550px;
+    min-width: 360px;
+}
+
+#inflationInfo {
+    position: absolute;
+    top: 1160px;
+    width: 100%;
+    height: auto;
+}
+
+.yAxis {
+    list-style-type: none;
+    padding-bottom: 65%;
+    padding-top: 65%;
+}
+
+#inflationY {
+    position: absolute;
+    top: 30px;
+    left: -100px;
+    text-align: right;
+    color: rgb(21, 114, 165);
+    font-size: 0.4em;
+    height: 100%;
+}
+
+#inflationX {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    width: 100%;
+    margin-left: -46px;
+    color: rgb(21, 114, 165);
+    font-size: 0.4em;
+}
+
+.xAxis {
+    display: inline;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.openSans {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.chartDots {
+    position: absolute;
+    left: 2px;
+    bottom: 10%;
+    width: 100%;
+}
+
+.legendInfo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+    font-weight: 300;
+    position: absolute;
+    top: -20px;
+}
+
+#cpiLegend {
+    right: -94px;
+    color: rgb(0, 181, 188);
+}
+
+#tuitionLegend {
+    right: -48px;
+    color: rgb(21, 114, 165);
+}
+
+#inflationTitle {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    color: rgb(0, 181, 188);
+}
+
+#brace {
+    position: absolute;
+    bottom: 10%;
+    right: -200px;
+}
+
+#risenCost {
+    position: absolute;
+    right: -450px;
+    top: 50%;
+    margin-top: -10px;
+    width: 200px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#stat439 {
+    font-size: 2em;
+    color: rgb(21, 114, 165);
+}
+
+.terminalLight {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    color: rgb(0, 181, 188); 
+}
+
+#whereDoesItGo {
+    position: relative;
+    left: -70px;
+    text-align: center;
+    font-size: 3em;
+}
+
+#dotMoney {
+    position: absolute;
+    top: 500px;
+    left: 0;
+    width: 100%;
+}
+
+#topLeftDotsMoney {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    margin-left: -330px;
+}
+
+.moneyInfo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.64em;
+    color: rgb(77, 80, 80);
+    text-align: center;
+}
+
+.moneyTitle {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+    color: rgb(21, 114, 165);
+}
+
+#admins {
+    position: absolute;
+    top: 162px;
+    left: 50%;
+    margin-left: -260px;
+}
+
+#middleMoney {
+    position: absolute;
+    top: 189px;
+    left: 50%;
+    margin-left: -80px;
+}
+
+#amenities {
+    position: absolute;
+    top: 162px;
+    left: 50%;
+    margin-left: 20px;
+}
+
+#moneyRightDots {
+    position: absolute;
+    left: 50%;
+    margin-left: 200px;
+    top: 186px;
+}
+
+#increaseValue {
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    margin-left: -330px;
+    font-size: 1.75em;
+    font-weight: 400;
+}
+
+#moneyBottomDots {
+    position: absolute;
+    top: 364px;
+    left: 50%;
+    margin-left: -310px;
+}
+
+#bubbleBurst {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+    color: rgb(0, 181, 188);
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -260px;
+    top: 346px;
+    margin-bottom: 50px;
+}
+
+#payingMore {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    font-size: 0.5em;
+}
+
+#paradox {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 2050px;
+    width: 100%;
+    height: 1580px;
+    background-color: rgb(249, 249, 249);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+}
+
+#workPrep {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#workPrepTitle {
+    font-size: 2em;
+}
+
+.paradoxHead {
+    position: absolute;
+    width: 13%;
+    bottom: 0;
+    min-width: 140px;
+    max-width: 216px;
+}
+
+#paradoxCAO {
+    left: 25%;
+    margin-left: -150px;
+}
+
+#paradoxGrads {
+    position: absolute;
+    left: 50%;
+}
+
+#paradoxBusiness {
+    position: absolute;
+    left: 75%;
+}
+
+#paradoxImages {
+    position: relative;
+    top: 200px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+.paradoxBox {
+    padding-bottom: 140px;
+}
+
+#paradoxBrace {
+    position: absolute;
+    bottom: 60px;
+    left: 35%;
+    min-width: 42px;
+    max-width: 66px;
+}
+
+.paradoxStat {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 2.2em;
+    color: rgb(0, 181, 188);
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    width: 100%;
+}
+
+.paradoxInfo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.7em;
+    color: rgb(77, 80, 80);
+    font-style: normal;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    margin-top: 30px;
+}
+
+#stat96 {
+    margin-top: -20px;
+}
+
+#stat14 {
+    margin-top: -23px;
+}
+
+#stat11 {
+    margin-top: -23px;
+}
+
+#whyHappens {
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    line-height: 30pt;
+}
+
+#maybeBecause {
+    font-size: 0.5em;
+}
+
+#collegeSignal {
+    position: absolute;
+    right: 50%;
+    margin-right: 150px;
+    top: 800px;
+    width: 30%;
+    max-width: 550px;
+    min-width: 353px;
+}
+
+#gradTime {
+    position: absolute;
+    left: 50%;
+    margin-left: 150px;
+    top: 800px;
+    width: 30%;
+    max-width: 550px;
+    min-width: 353px;
+}
+
+.whyPicture {
+    position: relative;
+    left: 30%;
+}
+
+
+
+
+
+
+
+#ampersand {
+    position: absolute;
+    top: 770px;
+    width: 100%;
+    text-align: center;
+    font-size: 4.25em;
+}
+
+.whySubtitle {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.whyDots {
+    position: relative;
+    left: 50%;
+    margin-left: -3px;
+}
+
+#moreDegrees {
+    position: relative;
+    left: 25%;
+    top: -100px;
+}
+
+#gradCaps {
+    position: relative;
+    left: 5%;
+    margin-left: -94px;
+    top: 80px;
+}
+
+
+
+#whyDotsRight {
+    top: -16px;
+}
+
+#degree12 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.7em;
+    color: rgb(21, 114, 165);
+    text-align: center;
+    position: relative;
+    left: -21%;
+    top: -15px;
+}
+
+#degree16 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.7em;
+    color: rgb(21, 114, 165);
+    text-align: center;
+    position: relative;
+    left: 20.5%;
+    top: -95px;
+}
+
+#whyBrace {
+    position: relative;
+    padding-right: 161px;
+}
+
+#stat30 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.62em;
+    color: rgb(77, 80, 80);
+    text-align: center;
+    width: 151px;
+    position: absolute;
+    top: -6px;
+    right: 0;
+}
+
+#whyHappensOverflow {
+    text-align: center;
+    font-size: 1.25em;
+    position: relative;
+    top: -88px;
+}
+
+#whyHappensExperience {
+    text-align: center;
+    font-size: 1.25em;
+    position: relative;
+    top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bartenders {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 1100px;
+    font-size: 1.875em;
+    padding-bottom: 100px;
+}
+
+#environment {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    top: 2100px;
+}
+
+#collegeEnvironment {
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.environmentHaad {
+    font-size: 2em;
+}
+
+#environmentCore {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    top: 73px;
+    max-width: 330px;
+    min-width: 212px;
+}
+
+#environmentLearning {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#coreDots {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -20px;
+}
+
+.environmentStat {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 2.25em;
+    color: rgb(0, 181, 188);
+    position: relative;
+    top: -25px;
+}
+
+.environmentInfo {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.75em;
+    color: rgb(77, 80, 80);
+    position: relative;
+    top: -50px;
+}
+
+#environmentDepression {
+    position: absolute;
+    width: 25%;
+    top: 174px;
+    right: 50%;
+    margin-right: 16px;
+    max-width: 413px;
+    min-width: 265px;
+}
+
+
+
+
+
+
+
+#environmentDepressionPic {
+    position: relative;
+    left: -25%;
+    top: -20px;
+}
+
+#environmentTopLeftDots {
+    position: relative;
+    top: -20px;
+}
+
+#envrionmentStat30 {
+    position: relative;
+    left: -25%;
+    top: 50%;
+    text-align: center;
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+#environmnetInfoDepression {
+    position: relative;
+    left: -50%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#environmentCheating {
+    position: absolute;
+    width: 25%;
+    top: 170px;
+    left: 50%;
+    margin-left: 16px;
+    max-width: 413px;
+    min-width: 265px;
+}
+
+#environmentCheatingPic {
+    position: relative;
+    right: -75%;
+    top: -14px;
+}
+
+#environmentStat82 {
+    position: relative;
+    right: -75%;
+    top: 50%;
+    text-align: center;
+    width: 50%;
+    margin-right: 10px;
+    margin-top: 13px;
+}
+
+#environmentInfoCheating {
+    position: relative;
+    right: -50%;
+    text-align: center;
+    margin-top: 58px;
+}
+
+#environmentTopRightDots {
+    position: relative;
+    top: -20px;
+}
+
+#environmentDrinking {
+    position: absolute;
+    width: 20%;
+    top: 65%;
+    right: 50%;
+    margin-right: 15px;
+    max-width: 330px;
+    min-width: 212px;
+}
+
+
+
+
+
+#environmentStat80 {
+    left: -25%;
+}
+
+#environmentInfoDrinking {
+    position: relative;
+    left: -25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#environmentSpeech {
+    position: absolute;
+    width: 22%;
+    top: 65%;
+    margin-top: 6px;
+    left: 50%;
+    margin-left: 15px;
+    max-width: 363px;
+    min-width: 233px;
+}
+
+#environmentInfoSpeech {
+    position: relative;
+    left: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#environmentStat576 {
+    right: -25%;
+    margin-top: 42px;
+}
+
+
+
+#environmentLearningText {
+    font-size: 1.875em;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#environmentFinalDots {
+    position: absolute;
+    left: 49.74%;
+    top: 100%;
+    padding-bottom: 30px;
+    max-width: 9px;
+    min-width: 6px;
+}
+
+#sideBySide {
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 5px;
+    position: relative;
+    top: 50px;
+}
+
+#comparison {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 2200px;
+}
+
+#compare {
+    font-size: 2em;
+}
+
+#sideSubTitle {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.25em;
+    text-align: center;
+    color: rgb(0, 181, 188);
+    position: relative;
+    top: 50px;
+}
+
+#collegeMindset {
+    position: absolute;
+    width: 40%;
+    right: 50%;
+    top: 250px;
+    margin-right: 20px;
+}
+
+#unschoolMindset {
+    position: absolute;
+    width: 40%;
+    left: 50%;
+    top: 250px;
+    margin-left: 20px;
+}
+
+#collegeMind {
+    font-size: 1.5em;
+    text-align: right;
+    position: absolute;
+    right: 15%;
+    width: 200px;
+    margin-right: 50px;
+}
+
+#college3 {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 25%;
+    max-width: 165px;
+    min-width: 106px;
+}
+
+.collegeDots {
+    padding-left: 5px;
+}
+
+.collegeInfo {
+    padding: 10px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(21, 114, 165);
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.875em;
+    color: rgb(21, 114, 165);
+}
+
+#c3Info {
+    position: absolute;
+    width: 250px;
+    right: 100%;
+    top: -40px;
+}
+
+#college2 {
+    position: absolute;
+    top: 270px;
+    right: 20px;
+    width: 19.8%;
+    max-width: 131px;
+    min-width: 84px;
+}
+
+#c2Info {
+    position: absolute;
+    right: 100%;
+    width: 220px;
+    top: -52px;
+}
+
+#c1Info {
+    position: absolute;
+    right: 100%;
+    width: 198px;
+    top: -40px;
+}
+
+#college1 {
+    position: absolute;
+    top: 437px;
+    right: 40px;
+    width: 27.8%;
+    max-width: 183px;
+    min-width: 118px;
+}
+
+#unschoolMind {
+    font-size: 1.5em;
+    position: absolute;
+    left: 15%;
+    margin-left: 50px;
+}
+
+.unschoolInfo {
+    padding: 10px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(0, 181, 188);
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.875em;
+    color: rgb(0, 181, 188);
+}
+
+
+
+#unschool3 {
+    position: absolute;
+    top: 115px;
+    left: 0;
+    width: 34.4%;
+    max-width: 227px;
+    min-width: 146px;
+}
+
+#s3Info {
+    position: absolute;
+    width: 250px;
+    left: 100%;
+    top: -52px;
+    margin-left: 5px;
+}
+
+#unschool2 {
+    position: absolute;
+    top: 259px;
+    left: 20px;
+    width: 22.6%;
+    max-width: 149px;
+    min-width: 96px;
+}
+
+#s2Info {
+    position: absolute;
+    width: 250px;
+    left: 100%;
+    top: -52px;
+    margin-left: 5px;
+}
+
+#unschool1 {
+    position: absolute;
+    top: 414px;
+    left: 40px;
+    width: 27.4%;
+    max-width: 181px;
+    min-width: 116px;
+}
+
+#s1Info {
+    position: absolute;
+    width: 250px;
+    left: 100%;
+    top: -52px;
+    margin-left: 5px;
+}
+
+#privileges {
+    text-align: center;
+    width: 680px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    position: relative;
+    top: 670px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+#quoteBottom {
+    font-size: 2em;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+
+#paypal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 650px;
+    width: 264px;
+    height: 40px;
+}
+
+#quoteMark {
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    top: 18px;
+    background-color: rgb(21, 114, 165);
+}
+
+#thielImage {
+    position: absolute;
+    top: 0;
+    left: 33px;
+}
+
+#thielInfo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.875em;
+    text-align: right;
+    color: rgb(21, 114, 165);
+    position: relative;
+    top: 8px;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#footer {
+    position: absolute;
+    bottom: -1200px;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: url(images/aBlue/bg.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#anotherWay {
+    font-family: 'Dosis', sans-serif;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#alternatives {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+
+#emailForm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 413px;
+    height: 50px;
+    position: relative;
+}
+
+#formBox {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(144, 144, 144);
+    background-color: rgb(255, 255, 255);
+    width: 244px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+}
+
+#formButton {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(0, 181, 188);
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 0;
+    -webkit-transition: background- 0.5s ease, color 0.5s ease;
+    -moz-transition: background-color 0.5s ease, color 0.5s ease;
+    -o-transition: background-color 0.5s ease, color 0.5s ease;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#logos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 60px;
+}
+
+#portal {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 95px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+    top: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+}
+
+#portal:hover {
+    opacity: 0.6;
+}
+
+#formButton:hover {
+    background-color: rgb(-40, 141, 148);
+    color: rgb(215, 215, 215);
+}
+
+#fbLinkLeftB {
+    background-image: url(images/facebookLogo.png);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+#twitterLinkLeftB {
+    background-image: url(images/twitterLogo.png);
+    position: absolute;
+    bottom: 10px;
+    left: 36px;
+}
+
+#fbLinkRighttB {
+    background-image: url(images/facebookLogo.png);
+    position: absolute;
+    bottom: 10px;
+    right: 36px;
+}
+
+#twitterLinkRightB {
+    background-image: url(images/twitterLogo.png);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.terminalDarkMedium {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    color: rgb(21, 114, 165);
+}
+
+.terminalLightMedium {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    color: rgb(0, 181, 188); 
+}
+
+#media {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+input {
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#formFooter {
+    opacity: 1;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#thank {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 1.625em;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: -20px;
+}
+
+#capInfo {
+    position: absolute;
+    top: 89%;
+    left: 70%;
+    margin-left: -55px;
+}
+
+
+
+#quoteFader {
+    position: relative;
+    width: 680px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 710px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1)0%, rgba(235, 250, 255, 0)100%); 
+    background: -moz-linear-gradient(0deg, rgba(255, 255, 255, 1)0%, rgba(235, 250, 255, 0)100%); 
+    background: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 1)0%, rgba(235, 250, 255, 0)100%); 
+    background: -o-linear-gradient(0deg, rgba(255, 255, 255, 1)0%, rgba(235, 250, 255, 0)100%); 
+}
+
+img {
+    -webkit-user-drag: none;
+    user-drag: none;
+}
